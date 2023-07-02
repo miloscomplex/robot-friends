@@ -10,13 +10,13 @@ const CardList = ({robots}) => {
             name={user.name} 
             email={user.email} />
         );
-    })
+    });
 
     return (
         <div>
             {cardArray}
         </div>
     )
-}
+};
 
-export default CardList
+export default CardList;
