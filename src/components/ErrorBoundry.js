@@ -8,7 +8,6 @@ class ErrorBoundry extends Component {
         }
     }
 
-
     //life cycle hook 
     componentDidCatch() {
         this.setState({ hasError: true})
